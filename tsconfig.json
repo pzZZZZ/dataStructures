@@ -1,0 +1,27 @@
+{
+  "compilerOptions": {
+    "allowSyntheticDefaultImports": true,
+    "baseUrl": ".",
+    "declaration": false,
+    "experimentalDecorators": true,
+    "module": "es6",
+    "moduleResolution": "node",
+    "noImplicitAny": false,
+    "noUnusedLocals": true,
+    "outDir": "./dist/",
+    "preserveConstEnums": true,
+    "removeComments": false,
+    "rootDir": ".",
+    "sourceMap": true,
+    "strictNullChecks": true,
+    "target": "es3",
+    "lib": ["dom", "es7", "es2017.object"],
+    "paths": {
+      "dataStructures/*": ["./src/dataStructures/*"]
+    }
+  },
+  "files": ["index.d.ts"],
+  "include": ["src/**/*.ts"],
+  "exclude": ["node_modules"],
+  "compileOnSave": false
+}

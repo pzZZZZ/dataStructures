@@ -1,0 +1,31 @@
+.__upgrade-tag {
+    position: fixed;
+    height: 42px;
+    background: #EAF2FF;
+    width: 100%;
+
+    .__upgrade-box {
+        width: 1200px;
+        margin: 0 auto;
+        font-weight: 400;
+        font-size: 14px;
+        color: #2E86FF;
+        line-height: 42px;
+        text-align: center;
+        position: relative;
+
+        b {
+            font-weight: bold;
+        }
+
+        .__upgrade_close {
+            position: absolute;
+            cursor: pointer;
+            right: 150px;
+            top: 15px;
+            width: 12px;
+            height: 12px;
+        }
+    }
+
+}
